@@ -8,7 +8,7 @@
 Introducir el precio con punto decimal (70.55)<p>
 
 Precio de ayer: <input id="ayer"><br>
-Precio de hoy: <input id="hoy">
+Precio de hoy: &nbsp;<input id="hoy">
 
 
 <form name="fomul"> 
