@@ -14,7 +14,9 @@ asdf
 
 Precio de ayer: <input id="ayer">
 Precio de hoy: <input id="hoy">
-aaaaaa
+
+asdfasdfasdfasdfaf
+
 <form name="fomul"> 
 Mes de referencia: 
 <select id="formulario" name="miSelect"> 
