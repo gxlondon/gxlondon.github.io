@@ -10,9 +10,9 @@ function dimePropiedades(){
 
 </head>
 <body>
-asdf
+Introducir el precio con punto decimal (70.55)<p>
 
-Precio de ayer: <input id="ayer">
+Precio de ayer: <input id="ayer"><br>
 Precio de hoy: <input id="hoy">
 
 
