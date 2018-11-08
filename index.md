@@ -20,18 +20,18 @@ asdfasdfasdfasdfaf
 <form name="fomul"> 
 Mes de referencia: 
 <select id="formulario" name="miSelect"> 
-<option value="enero">Enero
-<option value="febrero">Febrero
-<option value="marzo">Marzo
-<option value="abril">Abril
-<option value="mayo">Mayo
-<option value="junio">Junio
-<option value="julio">Julio
-<option value="agosto">Agosto
-<option value="septiembre">Septiembre
-<option value="octubre">Octubre
-<option value="noviembre" selected>Noviembre
-<option value="diciembre">Diciembre
+   <option value="enero">Enero</option>
+<option value="febrero">Febrero</option>
+<option value="marzo">Marzo</option>
+<option value="abril">Abril</option>
+<option value="mayo">Mayo</option>
+   <option value="junio">Junio</option>
+   <option value="julio">Julio</option>
+   <option value="agosto">Agosto</option> 
+   <option value="septiembre">Septiembre</option>
+   <option value="octubre">Octubre</option>
+   <option value="noviembre" selected>Noviembre</option>
+   <option value="diciembre">Diciembre</option>
 </select> 
  </form>
 asdfasdfasdf
