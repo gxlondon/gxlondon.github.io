@@ -1,24 +1,55 @@
 
 <html>
-
 <head>
-<title>Cierre del Brent</title>
+<title>Brent Cierre</title>
 
+<script>
+function dimePropiedades(){ 
+   alert('hola');
+   	</script>
 
 </head>
 <body>
 
 
+<table align="center" width="70%">
 
 Precio de ayer: <input id="ayer">
 Precio de hoy: <input id="hoy">
+
+<form name="fomul"> 
+Mes de referencia: 
+<select id="formulario" name="miSelect"> 
+<option value="enero">Enero
+<option value="febrero">Febrero
+<option value="marzo">Marzo
+<option value="abril">Abril
+<option value="mayo">Mayo
+<option value="junio">Junio
+<option value="julio">Julio
+<option value="agosto">Agosto
+<option value="septiembre">Septiembre
+<option value="octubre">Octubre
+<option value="noviembre" selected>Noviembre
+<option value="diciembre">Diciembre
+</select> 
+<br> 
+<br> 
+</form>
+
+
 <button id="say">Trabaja!</button>
  
 <hr>
 <div id="result"></div>
- 
+
+</table>
+
 <script>
 
+
+   	
+   	
 var ops = {
         sumar: function sumarNumeros(n1, n2) {
             return (parseFloat(n1) + parseFloat(n2));
@@ -64,6 +95,8 @@ var mes = month[d.getMonth()];
 function say_hi() {
     var ayer = document.getElementById('ayer').value;
     var hoy = document.getElementById('hoy').value;
+    var mes_referencia = document.getElementById('formulario').value;
+
 
     var diferencia = ops.restar(ayer, hoy);
 
@@ -103,7 +136,7 @@ var ayer_coma = ayer.toString().replace(/\./g,',');
 
 var hoy_coma = hoy.toString().replace(/\./g,',');
 
- var html1 = 'PETR\u00D3LEO BRENT CIERRE <p> El petr\u00F3leo Brent <b>' + subebaja + '</b> un <b> ' + porcentaje_coma + ' % </b>, hasta <b>' + hoy_coma + '</b> d\u00F3lares <p> Londres, <b>' + date + '</b> <b>' + mes + '</b> (EFE).- El precio del barril de petr\u00F3leo Brent para entrega en enero termin\u00F3 hoy en el mercado de futuros de Londres en <b>' + hoy + '</b> d\u00F3lares, un <b> ' + porcentaje_coma + ' % </b> <b>' + masmenos + '</b> que al finalizar la sesi\u00F3n anterior.<br> El crudo del mar del Norte, de referencia en Europa, concluy\u00F3 la jornada en el International Exchange Futures con un <b>' + incredesce + '</b> de <b> ' + diferencia_entera_dos_coma + '</b> d\u00F3lares respecto a la \u00FAltima negociaci\u00F3n, cuando cerr\u00F3 en <b>' + ayer_coma + '</b> d\u00F3lares.';
+ var html1 = 'PETR\u00D3LEO BRENT CIERRE <p> El petr\u00F3leo Brent <b>' + subebaja + '</b> un <b> ' + porcentaje_coma + ' % </b>, hasta <b>' + hoy_coma + '</b> d\u00F3lares <p> Londres, <b>' + date + '</b> <b>' + mes + '</b> (EFE).- El precio del barril de petr\u00F3leo Brent para entrega en <b>' + mes_referencia + '</b> termin\u00F3 hoy en el mercado de futuros de Londres en <b>' + hoy + '</b> d\u00F3lares, un <b> ' + porcentaje_coma + ' % </b> <b>' + masmenos + '</b> que al finalizar la sesi\u00F3n anterior.<br> El crudo del mar del Norte, de referencia en Europa, concluy\u00F3 la jornada en el International Exchange Futures con un <b>' + incredesce + '</b> de <b> ' + diferencia_entera_dos_coma + '</b> d\u00F3lares respecto a la \u00FAltima negociaci\u00F3n, cuando cerr\u00F3 en <b>' + ayer_coma + '</b> d\u00F3lares.';
 
 
 
@@ -114,6 +147,7 @@ var hoy_coma = hoy.toString().replace(/\./g,',');
 }
  
 document.getElementById('say').addEventListener('click', say_hi);
+
 </script>
 
 </body>
