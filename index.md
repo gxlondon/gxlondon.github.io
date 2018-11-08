@@ -12,8 +12,6 @@ function dimePropiedades(){
 <body>
 
 
-<table align="center" width="70%">
-
 Precio de ayer: <input id="ayer">
 Precio de hoy: <input id="hoy">
 
@@ -42,8 +40,6 @@ Mes de referencia:
  
 <hr>
 <div id="result"></div>
-
-</table>
 
 <script>
 
