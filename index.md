@@ -9,11 +9,8 @@ Introducir el precio con punto decimal (70.55)<p>
 
 Precio de ayer: <input id="ayer"><br>
 Precio de hoy: &nbsp;<input id="hoy">
-
-
 <form name="fomul"> 
-Mes de referencia: 
-<select id="formulario" name="miSelect"> 
+Mes de referencia: <select id="formulario" name="miSelect"> 
    <option value="enero">Enero</option>
    <option value="febrero">Febrero</option>
    <option value="marzo">Marzo</option>
