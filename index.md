@@ -5,7 +5,7 @@
 
 </head>
 <body>
-   <font size=1>Introducir el precio con punto decimal (70.55)</font><p>
+Introducir el precio con punto decimal (70.55)<p>
 
 Precio de ayer: <input id="ayer"><br>
 Precio de hoy: &nbsp;<input id="hoy">
