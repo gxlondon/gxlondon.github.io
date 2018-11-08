@@ -9,6 +9,7 @@
    </style>
 </head>
 <body>
+   <center><h1>Cierre del Brent</h1></center><p>
 Introducir el precio con punto decimal (70.55)<p>
 
 Precio de ayer: <input id="ayer"><br>
