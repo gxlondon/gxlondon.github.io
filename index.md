@@ -26,7 +26,7 @@ Mes de referencia: <select id="formulario" name="miSelect">
 </select> 
  </form>
 
-<button id="say">¡Escribe!</button>
+<center><button id="say">¡Escribe!</button></center>
 
 <hr>
 <div id="result"></div>
