@@ -10,7 +10,7 @@ function dimePropiedades(){
 
 </head>
 <body>
-
+asdf
 
 Precio de ayer: <input id="ayer">
 Precio de hoy: <input id="hoy">
@@ -37,13 +37,11 @@ Mes de referencia:
 a
 <button id="say">Trabaja!</button>
  a
-<hr>
+<hr>asdf
 <div id="result"></div>
 
 <script>
-
-
-   	
+  	
    	
 var ops = {
         sumar: function sumarNumeros(n1, n2) {
