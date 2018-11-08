@@ -15,7 +15,6 @@ asdf
 Precio de ayer: <input id="ayer">
 Precio de hoy: <input id="hoy">
 
-as33333333
 
 <form name="fomul"> 
 Mes de referencia: 
@@ -34,9 +33,8 @@ Mes de referencia:
    <option value="diciembre">Diciembre</option>
 </select> 
  </form>
-asdfasdfasdf
 
-<button id="say">Trabaja!</button>
+<button id="say">¡Escribe!</button>
 
 <hr>
 <div id="result"></div>
