@@ -35,8 +35,7 @@ Mes de referencia:
 <div id="result"></div>
 
 
-</body>
-</html>
+
 
 <script>
   	
