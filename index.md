@@ -37,7 +37,7 @@ Mes de referencia:<br> <select id="formulario" name="miSelect">
    <option value="octubre">Octubre</option>
    <option value="noviembre" selected>Noviembre</option>
    <option value="diciembre">Diciembre</option>
-</select></form></td></tr></table><font style="font:12px courier;">Introducir el precio con punto decimal (70.55)</font><br></center>
+</select></form></td></tr></table><font style="font:12px courier;">Introducir el precio con punto decimal (70.55)</font><br><br></center>
 <center><button id="say">¡Escribe!</button></center><br><div id="result"></div>
 <script>
 
