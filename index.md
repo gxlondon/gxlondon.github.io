@@ -14,7 +14,7 @@
    </style>
 </head>
 <body>
-<!--   <p> <center><h1>Cierre del Brent</h1></center><p>  --><center><br><table style="width:95%; border: 1px solid gray;"><tr><td style="width:30%">
+<!--   <p> <center><h1>Cierre del Brent</h1></center><p>  --><center><br><table style="width:90%; border: 1px solid gray;"><tr><td style="width:30%">
   <b>Precio de ayer</b>:<br>
   <b>Precio de hoy</b>: 
     </td>
