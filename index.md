@@ -12,6 +12,7 @@
    </style>
 </head>
 <body>
+  <img src="http://www.searchgoindia.com/uploads/product_images/b1yB0uOKmg-Worm-Wheel.png">
 <!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->
 Introducir el precio con punto decimal (70.55)<p><br>
 
