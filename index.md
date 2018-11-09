@@ -14,7 +14,7 @@
    </style>
 </head>
 <body>
-<!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->Introducir el precio con punto decimal (70.55)<br><center><table style="width:70%; border: 1px solid lightgrey;"><tr><td style="width:30%">
+<!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->Introducir el precio con punto decimal (70.55)<br><center><table style="width:70%; border: 1px solid gray;"><tr><td style="width:30%">
   <b>Precio de ayer</b>:<br>
   <b>Precio de hoy</b>: 
     </td>
@@ -126,7 +126,7 @@ var hoy_coma = hoy.toString().replace(/\./g,',');
 
 /* IMPRIME EL TEXTO FINAL */
 
- var html1 = '<div style="background-color:AliceBlue; padding: 8px 8px 8px 8px; border: 1px solid black;"><font style="font:16px courier;">PETR\u00D3LEO BRENT CIERRE <p> El petr\u00F3leo Brent ' + subebaja + ' un  ' + porcentaje_coma + ' %, hasta ' + hoy_coma + ' d\u00F3lares <p> Londres, ' + date + ' ' + mes + ' (EFE).- El precio del barril de petr\u00F3leo Brent para entrega en ' + mes_referencia + ' termin\u00F3 hoy en el mercado de futuros de Londres en ' + hoy_coma + ' d\u00F3lares, un  ' + porcentaje_coma + ' %  ' + masmenos + ' que al finalizar la sesi\u00F3n anterior.<br> El crudo del mar del Norte, de referencia en Europa, concluy\u00F3 la jornada en el International Exchange Futures con un ' + incredesce + ' de  ' + diferencia_entera_dos_coma + ' d\u00F3lares respecto a la \u00FAltima negociaci\u00F3n, cuando cerr\u00F3 en ' + ayer_coma + ' d\u00F3lares.</font></div>';
+ var html1 = '<div style="background-color:AliceBlue; padding: 8px 8px 8px 8px; border: 1px solid gray;"><font style="font:16px courier;">PETR\u00D3LEO BRENT CIERRE <p> El petr\u00F3leo Brent ' + subebaja + ' un  ' + porcentaje_coma + ' %, hasta ' + hoy_coma + ' d\u00F3lares <p> Londres, ' + date + ' ' + mes + ' (EFE).- El precio del barril de petr\u00F3leo Brent para entrega en ' + mes_referencia + ' termin\u00F3 hoy en el mercado de futuros de Londres en ' + hoy_coma + ' d\u00F3lares, un  ' + porcentaje_coma + ' %  ' + masmenos + ' que al finalizar la sesi\u00F3n anterior.<br> El crudo del mar del Norte, de referencia en Europa, concluy\u00F3 la jornada en el International Exchange Futures con un ' + incredesce + ' de  ' + diferencia_entera_dos_coma + ' d\u00F3lares respecto a la \u00FAltima negociaci\u00F3n, cuando cerr\u00F3 en ' + ayer_coma + ' d\u00F3lares.</font></div>';
 
  
    
