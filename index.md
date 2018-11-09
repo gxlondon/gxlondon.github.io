@@ -11,7 +11,7 @@
   
    </style>
 </head>
-<body>
+<body>a<img src="favicon.ico">a
 <!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->
 Introducir el precio con punto decimal (70.55)<p><br>
 
