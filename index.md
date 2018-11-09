@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Brent-o-Matic</title>
-  <link rel="shortcut icon" type="image/png" href="http://www.searchgoindia.com/uploads/product_images/b1yB0uOKmg-Worm-Wheel.png"/>
+ <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <style>
 // Ocultar o desocultar cabecera GitHub
 //   header {
@@ -12,7 +12,6 @@
    </style>
 </head>
 <body>
-  <img src="http://www.searchgoindia.com/uploads/product_images/b1yB0uOKmg-Worm-Wheel.png">
 <!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->
 Introducir el precio con punto decimal (70.55)<p><br>
 
