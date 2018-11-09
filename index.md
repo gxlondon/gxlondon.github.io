@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Brent-o-Matic</title>
+  <link rel="shortcut icon" type="image/png" href="http://www.searchgoindia.com/uploads/product_images/b1yB0uOKmg-Worm-Wheel.png"/>
 <style>
 // Ocultar o desocultar cabecera GitHub
 //   header {
