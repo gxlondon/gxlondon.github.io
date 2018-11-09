@@ -6,7 +6,9 @@
 //   header {
 //  display: none;
 //}
-   texto { font-weight:300}
+   texto { font-weight:300;
+            font: 15px arial, sans-serif;
+         }
    </style>
 </head>
 <body>
