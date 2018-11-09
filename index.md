@@ -23,7 +23,7 @@
       <input id="ayer" maxlength="6" size="5" style="text-align:center;"><br>
       <input id="hoy" maxlength="6" size="5" style="text-align:center;">
     </td>
-<td style="width:50%">
+<td style="width:50%; text-align:center;">
   <form name="fomul"> 
 Mes de referencia:<br> <select id="formulario" name="miSelect"> 
    <option value="enero">Enero</option>
