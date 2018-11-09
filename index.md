@@ -14,10 +14,8 @@
    </style>
 </head>
 <body>
-<!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->
-Introducir el precio con punto decimal (70.55)<p><br>
-<!--  FORMULARIO DE ENTRADA DE DATOS EN HTML  -->
-<center><table style="width:70%; border:0;"><tr><td style="width:30%">
+<!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->Introducir el precio con punto decimal (70.55)<p><br>
+<!--  FORMULARIO DE ENTRADA DE DATOS EN HTML  --><center><table style="width:70%; border:0;"><tr><td style="width:30%">
   Precio de <b>ayer</b>:<br>
   Precio de <b>hoy</b>: 
     </td>
@@ -40,13 +38,8 @@ Mes de referencia:<br> <select id="formulario" name="miSelect">
    <option value="octubre">Octubre</option>
    <option value="noviembre" selected>Noviembre</option>
    <option value="diciembre">Diciembre</option>
-</select> 
-  </form>
-    </td>
-  </tr>
-</table></center>
-<center><button id="say">¡Escribe!</button></center><br>
-<div id="result"></div>
+</select></form></td></tr></table></center>
+<center><button id="say">¡Escribe!</button></center><br><div id="result"></div>
 <script>
 
 /* DEFINICIÓN DE OPERACIONES ARITMÉTICAS */
