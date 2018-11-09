@@ -19,7 +19,7 @@
 Introducir el precio con punto decimal (70.55)<p><br>
 
 <!--  FORMULARIO DE ENTRADA DE DATOS EN HTML  -->
-<table>
+<center><table width="70%">
   <tr>
 <td>
   Precio de ayer: <input id="ayer" maxlength="6" size="5" style="text-align:center;"><br>
@@ -27,7 +27,7 @@ Introducir el precio con punto decimal (70.55)<p><br>
     </td>
 <td>
   <form name="fomul"> 
-Mes de referencia: <select id="formulario" name="miSelect"> 
+Mes de referencia:<br> <select id="formulario" name="miSelect"> 
    <option value="enero">Enero</option>
    <option value="febrero">Febrero</option>
    <option value="marzo">Marzo</option>
@@ -44,7 +44,7 @@ Mes de referencia: <select id="formulario" name="miSelect">
   </form>
     </td>
   </tr>
-</table>
+</table></center>
 <center><button id="say">¡Escribe!</button></center><br>
 
 <hr>
