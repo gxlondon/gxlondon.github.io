@@ -12,10 +12,10 @@
 </head>
 <body>
 <!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->
-Introducir el precio con punto decimal (70.55)<p>
+Introducir el precio con punto decimal (70.55)<p><br>
 
 Precio de ayer: <input id="ayer"><br>
-Precio de hoy: &nbsp;<input id="hoy">
+Precio de hoy: &nbsp;&nbsp;<input id="hoy">
 <form name="fomul"> 
 Mes de referencia: <select id="formulario" name="miSelect"> 
    <option value="enero">Enero</option>
@@ -33,7 +33,7 @@ Mes de referencia: <select id="formulario" name="miSelect">
 </select> 
  </form>
 
-<center><button id="say">¡Escribe!</button></center>
+<center><button id="say">¡Escribe!</button></center><br>
 
 <hr>
 <div id="result"></div>
