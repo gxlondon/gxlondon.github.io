@@ -22,7 +22,7 @@ Introducir el precio con punto decimal (70.55)<p><br>
 <center><table style="width:70%">
   <tr>
 <td>
-  Precio de ayer: 
+  Precio de ayer:<br>
   Precio de hoy: 
     </td>
     <td>
