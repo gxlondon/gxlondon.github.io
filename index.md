@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Brent-o-Matic</title>
- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <style>
 // Ocultar o desocultar cabecera GitHub
 //   header {
