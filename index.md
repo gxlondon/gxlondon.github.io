@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Brent-o-Matic</title>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <style>
 // Ocultar o desocultar cabecera GitHub
 //   header {
@@ -11,9 +11,9 @@
   
    </style>
 </head>
-<body>a<img src="favicon.ico">a
+<body>
 <!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->
-Introducir el precio con punto decimal (70.55)<p><br>
+<img src="favicon.ico"> Introducir el precio con punto decimal (70.55)<p><br>
 
 <!--  FORMULARIO DE ENTRADA DE DATOS EN HTML  -->
 Precio de ayer: <input id="ayer"><br>
