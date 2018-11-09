@@ -10,18 +10,14 @@
 // Ocultar o desocultar cabecera GitHub
 //   header {
 //  display: none;
-//}
-  
+//} 
    </style>
 </head>
 <body>
 <!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->
 Introducir el precio con punto decimal (70.55)<p><br>
-
 <!--  FORMULARIO DE ENTRADA DE DATOS EN HTML  -->
-<center><table style="width:70%">
-  <tr>
-<td>
+<center><table style="width:70%"><tr><td>
   Precio de ayer:<br>
   Precio de hoy: 
     </td>
