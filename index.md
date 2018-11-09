@@ -19,10 +19,10 @@
 Introducir el precio con punto decimal (70.55)<p><br>
 
 <!--  FORMULARIO DE ENTRADA DE DATOS EN HTML  -->
-<center><table width="70%">
+<center><table style="width:70%">
   <tr>
 <td>
-  Precio de ayer: <input id="ayer" maxlength="6" size="5" style="text-align:center;"><br>
+  Precio de ayer: <input id="ayer" maxlength="6" size="5" style="text-align:center;">a<br>
   Precio de hoy: &nbsp;&nbsp;<input id="hoy" maxlength="6" size="5" style="text-align:center;">
     </td>
 <td>
