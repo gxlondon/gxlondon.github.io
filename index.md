@@ -17,15 +17,15 @@
 <!--   <p> <center><h1>Cierre del Brent</h1></center><p>  -->
 Introducir el precio con punto decimal (70.55)<p><br>
 <!--  FORMULARIO DE ENTRADA DE DATOS EN HTML  -->
-<center><table style="width:70%"><tr><td>
+<center><table style="width:70%"><tr><td style="width:25%">
   Precio de <b>ayer</b>:<br>
   Precio de <b>hoy</b>: 
     </td>
-    <td>
+    <td style="width:25%">
       <input id="ayer" maxlength="6" size="5" style="text-align:center;"><br>
       <input id="hoy" maxlength="6" size="5" style="text-align:center;">
     </td>
-<td>
+<td style="width:50%">
   <form name="fomul"> 
 Mes de referencia:<br> <select id="formulario" name="miSelect"> 
    <option value="enero">Enero</option>
