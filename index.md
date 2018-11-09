@@ -45,11 +45,8 @@ Mes de referencia:<br> <select id="formulario" name="miSelect">
     </td>
   </tr>
 </table></center>
-<center><button id="say">¡Escribe!</button></center><br><hr>
+<center><button id="say">¡Escribe!</button></center><br>
 <div id="result"></div>
-
-
-
 <script>
 
 /* DEFINICIÓN DE OPERACIONES ARITMÉTICAS */
