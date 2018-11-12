@@ -137,3 +137,86 @@ document.getElementById('say').addEventListener('click', say_hi);
 
 </script>
 
+<?php
+require('simple_html_dom.php');
+$html = file_get_html('https://www.bbc.co.uk/news/business/market-data');
+
+//EJEMPLO QUE SACA EL LINK DE TODAS LAS IMAGENES
+//foreach($html->find('img') as $element) 
+//       echo $element->src . '<br>';
+
+foreach($html->find('div[class="nw-c-md-overview-table__cell-inner"]') as $divi) {
+       //echo $divi->innertext . 'A<BR>';
+       $array[] = $divi; 
+}
+
+
+$ftse100_porcentaje = substr($array[1],-11,4);
+//echo $ftse100_porcentaje . '<br>';
+
+$ftse100_subebaja = substr($array[1],-12,1); // SI EL PORCENTAJE ES NEGATIVO RECOGE UN ;
+
+$ftse100_cambio = substr($array[2],-13,7);
+//echo $ftse100_cambio . '<br>';
+
+$ftse100_puntos = substr($array[3],-11,5);
+//echo $ftse100_puntos;
+
+
+
+?>
+
+
+<script>
+
+var date = new Date().getDate();
+
+var d = new Date();
+var month = new Array();
+month[0] = "ene";
+month[1] = "feb";
+month[2] = "mar";
+month[3] = "abr";
+month[4] = "may";
+month[5] = "jun";
+month[6] = "jul";
+month[7] = "ago";
+month[8] = "sep";
+month[9] = "oct";
+month[10] = "nov";
+month[11] = "dic";
+var mes = month[d.getMonth()];
+
+
+
+var ftse100_porcentaj = <?php echo $ftse100_porcentaje; ?>;
+var ftse100_porcentaje = ftse100_porcentaj.toString().replace(/\./,',');
+if (ftse100_porcentaje.length<4) { ftse100_porcentaje = ftse100_porcentaje +'0';} //AGREGA EL 0 FINAL SI EL SEGUNDO DECIMAL ES 0
+if (ftse100_porcentaje.length<3) { ftse100_porcentaje = ftse100_porcentaje +'00';}
+
+
+var ftse100_punto = <?php echo $ftse100_puntos; ?>;
+var ftse100_puntos = ftse100_punto.toString().replace(/\./,',');
+if (ftse100_puntos.length<5) { ftse100_puntos = ftse100_puntos +'0';} 
+if (ftse100_puntos.length<4) { ftse100_puntos = ftse100_puntos +'00';} 
+
+var ftse100_cambi = <?php echo $ftse100_cambio; ?>;
+var ftse100_cambio = ftse100_cambi.toString().replace(/\./,',');
+if (ftse100_cambio.length<7) { ftse100_cambio = ftse100_cambio +'0';} 
+if (ftse100_cambio.length<6) { ftse100_cambio = ftse100_cambio +'00';} 
+
+var ftse100_cambio = ftse100_cambio.substr(0, 1) + '.' + ftse100_cambio.substr(1); //AGREGA PUNTO DE MILES
+
+var java_subebaja = "<?php echo $ftse100_subebaja; ?>";
+
+ if (java_subebaja=';') { //SI LA VARIABLES ES ; EL PORCENTAJE ES NEGATIVO
+       document.write('<p><br>Londres, ' + date + ' ' + mes + ' (EFE).- El indice principal de la Bolsa de Valores de Londres, el FTSE-100, cerro hoy con un descenso del ' + ftse100_porcentaje + ' %, ' + ftse100_puntos + ' puntos, hasta ' + ftse100_cambio + ' enteros.');
+
+//SI LA VARIABLES NO ES ; EL PORCENTAJE ES POSITIVO
+   } else { document.write('<p><br>Londres, ' + date + ' ' + mes + ' (EFE).- El indice principal de la Bolsa de Valores de Londres, el FTSE-100, cerro hoy con una subida del ' + ftse100_porcentaje + ' %, ' + ftse100_puntos + ' puntos, hasta ' + ftse100_cambio + ' enteros.');
+}
+
+
+//alert('<?php echo $array[1]; ?>');
+
+</script>
