@@ -137,6 +137,7 @@ document.getElementById('say').addEventListener('click', say_hi);
 
 </script>
 
+AAAAAAAAAAAAAAAAAA
 <?php
 require('simple_html_dom.php');
 $html = file_get_html('https://www.bbc.co.uk/news/business/market-data');
